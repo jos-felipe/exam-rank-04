@@ -24,7 +24,7 @@ void set_pipe(int has_pipe, int *fd, int end)
 		err("error: fatal\n"), exit(1);
 }
 
-int	exec(char **argv, int i, char **envp)
+int exec(char **argv, int i, char **envp)
 {
 	int has_pipe, fd[2], pid, status;
 
